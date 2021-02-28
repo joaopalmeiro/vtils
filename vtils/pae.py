@@ -10,5 +10,14 @@ class ApproximateEntropy:
     def _distance():
         pass
 
+    @staticmethod
+    def _phi(N, m, r, data):
+        W = N - m + 1
+        s = np.empty((W, m))
+
+        # HERE
+
     def compute(self, data):
-        pass
+        N = data.shape[0]
+
+        phi_m = self._phi(N, self.m, self.r, data)
