@@ -23,5 +23,6 @@ A Python package providing utility functions for Data Visualization.
 - [`numpy.typing`](https://numpy.org/devdocs/reference/typing.html):
   - NumPy 1.20.0.
   - [API](https://numpy.org/devdocs/reference/typing.html#api).
+  - NumPy array: `np.ndarray`.
 - Makefile:
   - "(...) variables defined with `:=` are expanded once, but variables defined with `=` are expanded whenever they are used." ([source](https://stackoverflow.com/a/4879613))

@@ -11,13 +11,20 @@ class ApproximateEntropy:
         pass
 
     @staticmethod
-    def _phi(N, m, r, data):
+    def _phi(N: int, m: int, r: float, data: np.ndarray):
         W = N - m + 1
-        s = np.empty((W, m))
+        windows = np.empty((W, m))
 
+        for i in range(W):
+            windows[i, :] = data[i : i + m]
+
+        S = np.zeros(W)
         # HERE
 
-    def compute(self, data):
+    def compute(self, data: np.ndarray):
+        if data.ndim != 1:
+            raise ValueError("The input data must be 1D.")
+
         N = data.shape[0]
 
         phi_m = self._phi(N, self.m, self.r, data)
