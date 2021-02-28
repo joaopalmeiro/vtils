@@ -1,4 +1,4 @@
-# Source: https://github.com/trickeydan/cookiecutter-awesome-poetry.
+# Source: https://github.com/trickeydan/cookiecutter-awesome-poetry
 .PHONY: all type
 
 CMD:=poetry run
