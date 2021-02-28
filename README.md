@@ -18,4 +18,10 @@ A Python package providing utility functions for Data Visualization.
   - `poetry shell`.
   - Bump version: `poetry version patch` ([source](https://python-poetry.org/docs/cli/#version)).
   - Validate the `pyproject.toml` file: `poetry check`.
+  - `poetry add numpy@^1.19.5`.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
+- [`numpy.typing`](https://numpy.org/devdocs/reference/typing.html):
+  - NumPy 1.20.0.
+  - [API](https://numpy.org/devdocs/reference/typing.html#api).
+- Makefile:
+  - "(...) variables defined with `:=` are expanded once, but variables defined with `=` are expanded whenever they are used." ([source](https://stackoverflow.com/a/4879613))
