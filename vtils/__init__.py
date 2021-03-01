@@ -1,4 +1,6 @@
 # Source: https://github.com/python-poetry/poetry/pull/2366#issuecomment-652418094
+from .pae import PAE
+
 try:
     import importlib.metadata as importlib_metadata
 except ModuleNotFoundError:

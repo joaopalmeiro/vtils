@@ -2,6 +2,11 @@
 
 A Python package providing utility functions for Data Visualization.
 
+## References
+
+- G. Ryan, A. Mosca, R. Chang and E. Wu, "At a Glance: Pixel Approximate Entropy as a Measure of Line Chart Complexity," in **_IEEE Transactions on Visualization and Computer Graphics_**, vol. 25, no. 1, pp. 872-881, Jan. 2019, doi: 10.1109/TVCG.2018.2865264.
+- [`pae`](https://github.com/cudbg/pae) package.
+
 ## Notes
 
 - [pyenv](https://github.com/pyenv/pyenv):
@@ -26,3 +31,5 @@ A Python package providing utility functions for Data Visualization.
   - NumPy array: `np.ndarray`.
 - Makefile:
   - "(...) variables defined with `:=` are expanded once, but variables defined with `=` are expanded whenever they are used." ([source](https://stackoverflow.com/a/4879613))
+- [Black compatible configurations](https://black.readthedocs.io/en/stable/compatible_configs.html).
+- Check isort config: `isort . --show-config`.
