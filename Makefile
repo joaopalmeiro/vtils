@@ -18,7 +18,7 @@ isort:
 	$(CMD) isort $(PYMODULE)
 
 black:
-	$(CMD) black --line-length 90 $(PYMODULE)
+	$(CMD) black $(PYMODULE)
 
 lint:
 	$(CMD) flake8 $(PYMODULE)
