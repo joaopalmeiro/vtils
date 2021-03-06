@@ -37,4 +37,4 @@ A Python package providing utility functions for Data Visualization.
   - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#isort).
 - Flake8:
   - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#flake8).
-  - Check the list of error codes ignored by default: `flake8 --help`.
+  - Check the list of error codes ignored by default: `flake8 --help` (`--ignore`).
