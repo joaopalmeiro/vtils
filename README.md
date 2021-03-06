@@ -39,3 +39,6 @@ A Python package providing utility functions for Data Visualization.
   - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#flake8).
   - Check the list of error codes ignored by default: `flake8 --help` (`--ignore`).
   - [flake8-docstrings](https://gitlab.com/pycqa/flake8-docstrings).
+- [Bandit](https://github.com/PyCQA/bandit):
+  - Security linter.
+  - [Codes](https://bandit.readthedocs.io/en/latest/plugins/index.html#complete-test-plugin-listing).

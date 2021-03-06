@@ -1,10 +1,10 @@
 # Source: https://github.com/trickeydan/cookiecutter-awesome-poetry
-.PHONY: all type demo isort black lint
+.PHONY: all type demo isort black lint bandit
 
 CMD:=poetry run
 PYMODULE:=vtils
 
-all: type isort black lint
+all: type isort black lint bandit
 
 type:
 	$(CMD) mypy $(PYMODULE)
@@ -22,3 +22,6 @@ black:
 
 lint:
 	$(CMD) flake8 $(PYMODULE)
+
+bandit:
+	$(CMD) bandit -r $(PYMODULE)
