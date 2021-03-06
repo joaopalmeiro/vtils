@@ -1,5 +1,7 @@
 # vtils
 
+[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+
 A Python package providing utility functions for Data Visualization.
 
 ## References
