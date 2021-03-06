@@ -32,4 +32,9 @@ A Python package providing utility functions for Data Visualization.
 - Makefile:
   - "(...) variables defined with `:=` are expanded once, but variables defined with `=` are expanded whenever they are used." ([source](https://stackoverflow.com/a/4879613))
 - [Black compatible configurations](https://black.readthedocs.io/en/stable/compatible_configs.html).
-- Check isort config: `isort . --show-config`.
+- isort:
+  - Check isort config: `isort . --show-config`.
+  - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#isort).
+- Flake8:
+  - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#flake8).
+  - Check the list of error codes ignored by default: `flake8 --help`.

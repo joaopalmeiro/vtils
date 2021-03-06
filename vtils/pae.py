@@ -18,7 +18,8 @@ class ApproximateEntropy:
         S = np.zeros(W)
         for i in range(W):
             # `axis=1`: maxima along the second axis.
-            # Each window of size m is compared with every other window of the same size.
+            # Each window of size m is compared with
+            # every other window of the same size.
             distance = np.max(np.abs(windows - np.roll(windows, i, axis=0)), axis=1)
             S += np.less_equal(distance, r)
         S /= W

@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 88
+# Extend the default ignore list
+extend-ignore =
+    # Whitespace before ':'
+    E203,
+    # Line break before binary operator
+    W503
+per-file-ignores =
+    # `module` imported but unused
+    __init__.py: F401
