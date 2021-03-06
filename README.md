@@ -38,3 +38,4 @@ A Python package providing utility functions for Data Visualization.
 - Flake8:
   - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#flake8).
   - Check the list of error codes ignored by default: `flake8 --help` (`--ignore`).
+  - [flake8-docstrings](https://gitlab.com/pycqa/flake8-docstrings).
