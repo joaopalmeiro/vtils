@@ -5,7 +5,18 @@ extend-ignore =
     # Whitespace before ':'
     E203,
     # Line break before binary operator
-    W503
+    W503,
+    # Disable to avoid duplicate warnings with E722
+    B001
 per-file-ignores =
     # `module` imported but unused
     __init__.py: F401
+select =
+    E,
+    F,
+    W,
+    C90,
+    # flake8-bugbear
+    B,
+    # flake8-comprehensions
+    C4

@@ -46,11 +46,13 @@ A Python package providing utility functions for Data Visualization.
   - [flake8-commas](https://github.com/PyCQA/flake8-commas).
   - [flake8-import-order](https://github.com/PyCQA/flake8-import-order).
   - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear).
+    - "B006: Do not use mutable data structures for argument defaults."
   - [flake8-debugger](https://github.com/jbkahn/flake8-debugger).
   - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions).
   - [flake8-isort](https://github.com/gforcada/flake8-isort).
   - [flake8-mutable](https://github.com/ebeweber/flake8-mutable).
   - [flake8-todo](https://github.com/schlamar/flake8-todo).
+  - [pep8-naming](https://github.com/PyCQA/pep8-naming).
 - [Bandit](https://github.com/PyCQA/bandit):
   - Security linter.
   - [Codes](https://bandit.readthedocs.io/en/latest/plugins/index.html#complete-test-plugin-listing).
