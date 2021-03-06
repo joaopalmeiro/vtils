@@ -1,6 +1,7 @@
 # vtils
 
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A Python package providing utility functions for Data Visualization.
 
@@ -40,7 +41,16 @@ A Python package providing utility functions for Data Visualization.
 - Flake8:
   - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#flake8).
   - Check the list of error codes ignored by default: `flake8 --help` (`--ignore`).
+  - Check plugins: `flake8 --version`.
   - [flake8-docstrings](https://gitlab.com/pycqa/flake8-docstrings).
+  - [flake8-commas](https://github.com/PyCQA/flake8-commas).
+  - [flake8-import-order](https://github.com/PyCQA/flake8-import-order).
+  - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear).
+  - [flake8-debugger](https://github.com/jbkahn/flake8-debugger).
+  - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions).
+  - [flake8-isort](https://github.com/gforcada/flake8-isort).
+  - [flake8-mutable](https://github.com/ebeweber/flake8-mutable).
+  - [flake8-todo](https://github.com/schlamar/flake8-todo).
 - [Bandit](https://github.com/PyCQA/bandit):
   - Security linter.
   - [Codes](https://bandit.readthedocs.io/en/latest/plugins/index.html#complete-test-plugin-listing).
