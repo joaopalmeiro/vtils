@@ -7,6 +7,19 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/joaopalmeiro/vtils"
 repository = "https://github.com/joaopalmeiro/vtils"
+keywords = ["data", "visualization"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Typing :: Typed"
+]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/joaopalmeiro/vtils/issues"

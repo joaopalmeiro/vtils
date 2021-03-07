@@ -27,6 +27,9 @@ A Python package providing utility functions for Data Visualization.
   - Bump version: `poetry version patch` ([source](https://python-poetry.org/docs/cli/#version)).
   - Validate the `pyproject.toml` file: `poetry check`.
   - `poetry add numpy@^1.19.5`.
+  - `classifiers`:
+    - Python classifiers are added automatically from the `python` requirement.
+    - The `license` property will also set the License classifier automatically.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
 - [`numpy.typing`](https://numpy.org/devdocs/reference/typing.html):
   - NumPy 1.20.0.
@@ -67,4 +70,5 @@ A Python package providing utility functions for Data Visualization.
   - [bandit linter messages don't appear in the "Problems" tab](https://github.com/microsoft/vscode-python/issues/15561) issue.
 - Mypy:
   - [Missing type hints for third party library](https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-type-hints-for-third-party-library).
+  - [Making PEP 561 compatible packages](https://mypy.readthedocs.io/en/stable/installed_packages.html#making-pep-561-compatible-packages).
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide).
