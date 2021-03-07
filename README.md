@@ -28,8 +28,15 @@ A Python package providing utility functions for Data Visualization.
   - Validate the `pyproject.toml` file: `poetry check`.
   - `poetry add numpy@^1.19.5`.
   - `classifiers`:
-    - Python classifiers are added automatically from the `python` requirement.
-    - The `license` property will also set the License classifier automatically.
+    - Python classifiers are added automatically from the `python` requirement. In `vtils`:
+      - Programming Language :: Python :: 3
+      - Programming Language :: Python :: 3.6
+      - Programming Language :: Python :: 3.7
+      - Programming Language :: Python :: 3.8
+      - Programming Language :: Python :: 3.9
+    - The `license` property will also set the License classifier automatically. In `vtils`:
+      - License :: OSI Approved :: MIT License
+  - [Add zip_safe support](https://github.com/python-poetry/poetry/issues/928) (open) issue.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
 - [`numpy.typing`](https://numpy.org/devdocs/reference/typing.html):
   - NumPy 1.20.0.
@@ -64,11 +71,22 @@ A Python package providing utility functions for Data Visualization.
   - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings/).
   - [pandas-vet](https://github.com/deppen8/pandas-vet).
   - [flake8-simplify](https://github.com/MartinThoma/flake8-simplify).
+  - [flake8-colors](https://github.com/and3rson/flake8-colors).
 - [Bandit](https://github.com/PyCQA/bandit):
   - Security linter.
   - [Codes](https://bandit.readthedocs.io/en/latest/plugins/index.html#complete-test-plugin-listing).
-  - [bandit linter messages don't appear in the "Problems" tab](https://github.com/microsoft/vscode-python/issues/15561) issue.
+  - [bandit linter messages don't appear in the "Problems" tab](https://github.com/microsoft/vscode-python/issues/15561) (open) issue.
 - Mypy:
   - [Missing type hints for third party library](https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-type-hints-for-third-party-library).
   - [Making PEP 561 compatible packages](https://mypy.readthedocs.io/en/stable/installed_packages.html#making-pep-561-compatible-packages).
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide).
+
+## Snippets
+
+Check the Python implementation ([source](https://stackoverflow.com/a/14718168)):
+
+```python
+import platform
+
+platform.python_implementation()
+```
