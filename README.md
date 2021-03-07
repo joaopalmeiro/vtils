@@ -42,6 +42,8 @@ A Python package providing utility functions for Data Visualization.
   - [Black](https://black.readthedocs.io/en/stable/compatible_configs.html#flake8).
   - Check the list of error codes ignored by default: `flake8 --help` (`--ignore`).
   - Check plugins: `flake8 --version`.
+  - Check `entry_points` in the `setup.py` (or `setup.cfg`) file for (default) error codes.
+  - [Awesome Flake8 Extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions).
   - [flake8-docstrings](https://gitlab.com/pycqa/flake8-docstrings).
   - [flake8-commas](https://github.com/PyCQA/flake8-commas).
   - [flake8-import-order](https://github.com/PyCQA/flake8-import-order).
@@ -53,8 +55,15 @@ A Python package providing utility functions for Data Visualization.
   - [flake8-mutable](https://github.com/ebeweber/flake8-mutable).
   - [flake8-todo](https://github.com/schlamar/flake8-todo).
   - [pep8-naming](https://github.com/PyCQA/pep8-naming).
+  - [flake8-blind-except](https://github.com/elijahandrews/flake8-blind-except).
+  - [flake8-builtins](https://github.com/gforcada/flake8-builtins).
+  - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format).
+  - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings/).
+  - [pandas-vet](https://github.com/deppen8/pandas-vet).
+  - [flake8-simplify](https://github.com/MartinThoma/flake8-simplify).
 - [Bandit](https://github.com/PyCQA/bandit):
   - Security linter.
   - [Codes](https://bandit.readthedocs.io/en/latest/plugins/index.html#complete-test-plugin-listing).
 - Mypy:
   - [Missing type hints for third party library](https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-type-hints-for-third-party-library).
+- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide).

@@ -12,6 +12,7 @@ per-file-ignores =
     # `module` imported but unused
     __init__.py: F401
 select =
+    # Default
     E,
     F,
     W,
@@ -19,4 +20,8 @@ select =
     # flake8-bugbear
     B,
     # flake8-comprehensions
-    C4
+    C4,
+    # pep8-naming
+    N8,
+    # flake8-builtins
+    A00
