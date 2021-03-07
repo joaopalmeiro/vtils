@@ -4,6 +4,13 @@ version = "0.0.1"
 description = "A Python package providing utility functions for Data Visualization."
 authors = ["João Palmeiro <joaommpalmeiro@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/joaopalmeiro/vtils"
+repository = "https://github.com/joaopalmeiro/vtils"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/joaopalmeiro/vtils/issues"
+"Twitter" = "https://twitter.com/joaompalmeiro"
 
 [tool.poetry.dependencies]
 python = "^3.6"
