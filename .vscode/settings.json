@@ -9,9 +9,13 @@
 
   "python.linting.mypyEnabled": true,
 
+  "python.linting.banditEnabled": true,
+
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
-  }
+  },
+
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python"
 }

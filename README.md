@@ -64,6 +64,7 @@ A Python package providing utility functions for Data Visualization.
 - [Bandit](https://github.com/PyCQA/bandit):
   - Security linter.
   - [Codes](https://bandit.readthedocs.io/en/latest/plugins/index.html#complete-test-plugin-listing).
+  - [bandit linter messages don't appear in the "Problems" tab](https://github.com/microsoft/vscode-python/issues/15561) issue.
 - Mypy:
   - [Missing type hints for third party library](https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-type-hints-for-third-party-library).
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide).
