@@ -20,6 +20,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Visualization",
     "Typing :: Typed"
 ]
+# include = ["vtils/py.typed"]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/joaopalmeiro/vtils/issues"
