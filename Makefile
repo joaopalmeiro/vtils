@@ -1,10 +1,13 @@
 # Source: https://github.com/trickeydan/cookiecutter-awesome-poetry
-.PHONY: all type demo isort black lint bandit
+.PHONY: all check type demo isort black lint bandit
 
 CMD:=poetry run
 PYMODULE:=vtils
 
-all: type isort black lint bandit
+all: check type isort black lint bandit
+
+check:
+	poetry check
 
 type:
 	$(CMD) mypy $(PYMODULE)
