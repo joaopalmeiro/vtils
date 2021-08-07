@@ -9,6 +9,7 @@ A Python package providing utility functions for Data Visualization.
 
 - G. Ryan, A. Mosca, R. Chang and E. Wu, "At a Glance: Pixel Approximate Entropy as a Measure of Line Chart Complexity," in **_IEEE Transactions on Visualization and Computer Graphics_**, vol. 25, no. 1, pp. 872-881, Jan. 2019, doi: 10.1109/TVCG.2018.2865264.
 - [`pae`](https://github.com/cudbg/pae) package.
+- [`colormath`](https://github.com/gtaylor/python-colormath) package.
 
 ## Notes
 
@@ -80,6 +81,15 @@ A Python package providing utility functions for Data Visualization.
   - [Missing type hints for third party library](https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-type-hints-for-third-party-library).
   - [Making PEP 561 compatible packages](https://mypy.readthedocs.io/en/stable/installed_packages.html#making-pep-561-compatible-packages).
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide).
+
+### Color difference
+
+- [Wikipedia page](https://en.wikipedia.org/wiki/Color_difference).
+- Euclidean distance for RGB colors.
+- [Colour](https://github.com/colour-science/colour) package.
+- [d3-color-difference](https://github.com/Evercoder/d3-color-difference) package.
+- [LuxPy](https://github.com/ksmet1977/luxpy) package.
+- [`color`](https://scikit-image.org/docs/stable/api/skimage.color.html) module ([scikit-image](https://scikit-image.org/) package).
 
 ## Snippets
 
