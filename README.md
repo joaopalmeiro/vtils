@@ -85,11 +85,15 @@ A Python package providing utility functions for Data Visualization.
 ### Color difference
 
 - [Wikipedia page](https://en.wikipedia.org/wiki/Color_difference).
-- Euclidean distance for RGB colors.
+- Euclidean distance for RGB colors and perceptually-uniform color spaces.
+- sRGB is not perceptually uniform.
+- Delta E [equations](https://python-colormath.readthedocs.io/en/latest/delta_e.html):
+  - CIE76: Euclidean distance between two points in [CIELAB/Lab](https://en.wikipedia.org/wiki/CIELAB_color_space) color space.
 - [Colour](https://github.com/colour-science/colour) package.
-- [d3-color-difference](https://github.com/Evercoder/d3-color-difference) package.
+- [`d3-color-difference`](https://github.com/Evercoder/d3-color-difference) package.
 - [LuxPy](https://github.com/ksmet1977/luxpy) package.
-- [`color`](https://scikit-image.org/docs/stable/api/skimage.color.html) module ([scikit-image](https://scikit-image.org/) package).
+- [`color`](https://scikit-image.org/docs/stable/api/skimage.color.html) module ([`scikit-image`](https://scikit-image.org/) package).
+- [Color.js](https://github.com/LeaVerou/color.js) package.
 
 ## Snippets
 
