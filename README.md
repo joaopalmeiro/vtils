@@ -87,11 +87,20 @@ A Python package providing utility functions for Data Visualization.
 - [Wikipedia page](https://en.wikipedia.org/wiki/Color_difference).
 - Euclidean distance for RGB colors and perceptually-uniform color spaces.
 - sRGB is not perceptually uniform.
-- Delta E [equations](https://python-colormath.readthedocs.io/en/latest/delta_e.html):
-  - CIE76: Euclidean distance between two points in [CIELAB/Lab](https://en.wikipedia.org/wiki/CIELAB_color_space) color space.
+- Delta E [equations](https://python-colormath.readthedocs.io/en/latest/delta_e.html) (distance metrics):
+  - **CIE76**: Euclidean distance between two points in [CIELAB/Lab](https://en.wikipedia.org/wiki/CIELAB_color_space) color space.
+    - ≈ 2.3 corresponds to a JND (just noticeable difference) [for most Delta E equations](https://colorjs.io/docs/color-difference.html#delta-e-%CE%B4e).
+  - **CIE94**: It accommodates perceptual non-uniformities through the use of application-specific weights.
+    - The first color is the reference color (CIE94 is not symmetric).
+  - **CIEDE2000**: It is a major revision of CIE94 with five corrections.
+  - **CMC**/**CMC(l:c)** (1984): It was developed by the Colour Measurement Committee of the Society of Dyers and Colourists.
+    - The first color is the reference color (CMC is not symmetric).
+    - It has two parameters: lightness (`l`) and chroma (`c`). They allow the users to weight the difference based on the ratio of `l:c` that is deemed appropriate. The usual values are `2:1` for "acceptability" and `1:1` for "imperceptibility".
+- CIE: International Commission on Illumination.
+- Gamut: Range of colors.
 - [Colour](https://github.com/colour-science/colour) package.
 - [`d3-color-difference`](https://github.com/Evercoder/d3-color-difference) package.
-- [LuxPy](https://github.com/ksmet1977/luxpy) package.
+- [LuxPy](https://github.com/ksmet1977/luxpy) package ([documentation](http://ksmet1977.github.io/luxpy/)).
 - [`color`](https://scikit-image.org/docs/stable/api/skimage.color.html) module ([`scikit-image`](https://scikit-image.org/) package).
 - [Color.js](https://github.com/LeaVerou/color.js) package.
 
